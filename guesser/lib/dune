@@ -1,0 +1,4 @@
+(library
+ (name guesser)
+ (public_name rot13_game.guesser)
+ (libraries lwt lwt.unix cohttp-lwt-unix cohttp-lwt yojson uri str))

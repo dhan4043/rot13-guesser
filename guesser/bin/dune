@@ -1,0 +1,4 @@
+(executable
+ (name main)
+ (public_name rot13_game)
+ (libraries rot13_game.guesser lwt lwt.unix))
